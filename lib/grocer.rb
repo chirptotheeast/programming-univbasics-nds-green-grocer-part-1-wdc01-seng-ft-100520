@@ -40,7 +40,8 @@ def consolidate_cart(cart)
   counter += 1
   end
   updated_cart
-  binding.pry
+  
+  #binding.pry
 end
 
 
