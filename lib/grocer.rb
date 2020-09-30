@@ -22,6 +22,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
   updated_cart = []
+  counter = 0
   
   #find_item_by_name_in_collection(cart, collection)
    #binding.pry
