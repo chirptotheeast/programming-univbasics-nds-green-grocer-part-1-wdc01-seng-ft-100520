@@ -31,7 +31,7 @@ def consolidate_cart(cart)
       :item[:count]
        # + 1
      end
-    
+    binding.pry
   end
 end
 
