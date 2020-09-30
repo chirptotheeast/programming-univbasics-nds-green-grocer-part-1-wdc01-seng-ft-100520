@@ -39,6 +39,7 @@ def consolidate_cart(cart)
   end
   count += 1
   end
+  updated_cart
 end
 
 
