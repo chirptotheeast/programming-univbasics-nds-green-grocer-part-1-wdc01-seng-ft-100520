@@ -20,17 +20,17 @@ def consolidate_cart(cart)
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-  #
- # binding.pry
+  
   updated_cart = []
   
+  find_item_by_name_in_collection(cart, key)
   cart.each do |key|
    
-      binding.pry
-      find_item_by_name_in_collection(cart, key)
+      #binding.pry
+      
       #:item[:count]
        # + 1
-     end
+     #end
     binding.pry
   end
 end
