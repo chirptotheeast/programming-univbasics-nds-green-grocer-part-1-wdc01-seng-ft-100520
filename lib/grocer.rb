@@ -23,9 +23,9 @@ def consolidate_cart(cart)
   
   updated_cart = []
   
-  find_item_by_name_in_collection(cart, collection)
-   binding.pry
-  #cart.each do |key|
+  #find_item_by_name_in_collection(cart, collection)
+   #binding.pry
+  cart.each do |key|
    
       #binding.pry
       
@@ -33,7 +33,7 @@ def consolidate_cart(cart)
        # + 1
      #end
    
-  #end
+  end
 end
 #binding.pry
 
