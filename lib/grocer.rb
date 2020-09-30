@@ -24,6 +24,7 @@ def consolidate_cart(cart)
   updated_cart = []
   counter = 0
   
+  while counter >= cart.length
   #find_item_by_name_in_collection(cart, collection)
    #binding.pry
   cart.each do |key|
