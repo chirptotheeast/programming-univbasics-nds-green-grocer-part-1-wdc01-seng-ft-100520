@@ -24,15 +24,16 @@ def consolidate_cart(cart)
   updated_cart = []
   
   find_item_by_name_in_collection(cart, key)
-  cart.each do |key|
+   binding.pry
+  #cart.each do |key|
    
       #binding.pry
       
       #:item[:count]
        # + 1
      #end
-    binding.pry
-  end
+   
+  #end
 end
 
 
